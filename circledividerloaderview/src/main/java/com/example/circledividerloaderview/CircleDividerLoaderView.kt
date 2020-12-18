@@ -217,4 +217,13 @@ class CircleDividerLoaderView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : CircleDividerLoaderView {
+            val view : CircleDividerLoaderView = CircleDividerLoaderView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
