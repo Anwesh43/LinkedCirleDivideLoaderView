@@ -11,7 +11,7 @@ import android.graphics.RectF
 
 val parts : Int = 2
 val lines : Int = 6
-val scGap : Float = 0.02f / lines
+val scGap : Float = 0.02f / (parts + 1)
 val strokeFactor : Float = 90f
 val sizeFactor : Float = 5.9f
 val delay : Long = 20
